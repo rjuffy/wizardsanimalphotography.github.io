@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizard's Animal Photography - Packages</title>
+
+    <!-- Link to external CSS (main.css) -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Link to jQuery and SlickNav CSS and JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.6/slicknav.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.6/jquery.slicknav.min.js"></script>
+</head>
+<body>
+
+<header>
+    <img src="./images/logo.svg" alt="Wizard's Animal Photography Logo">
+</header>
+
+<nav>
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="packages.html">Packages</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="packages">
+        <h2>Photography Packages</h2>
+        <p>We offer a variety of packages to suit your needs, whether you're looking for a simple portrait or a full-blown wildlife photography session. Choose the package that best fits your vision and budget.</p>
+
+        <table class="packages-table">
+            <thead>
+                <tr>
+                    <th>Package</th>
+                    <th>Description</th>
+                    <th>Details</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pet Portrait Package</td>
+                    <td>Perfect for pets of all sizes and breeds. Capture your pet's personality with a series of stunning shots.</td>
+                    <td>
+                        <ul>
+                            <li>Up to 2 pets</li>
+                            <li>1 hour photo session</li>
+                            <li>10 edited photos</li>
+                        </ul>
+                    </td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>Wildlife Photography Package</td>
+                    <td>Capture the beauty of wildlife in its natural habitat with a professional photography session.</td>
+                    <td>
+                        <ul>
+                            <li>Up to 3 animals</li>
+                            <li>Half-day session</li>
+                            <li>20 edited photos</li>
+                        </ul>
+                    </td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>Event Photography Package</td>
+                    <td>Ideal for events such as parties, weddings, or animal-related activities. We'll capture the magic of the moment!</td>
+                    <td>
+                        <ul>
+                            <li>Up to 50 guests</li>
+                            <li>5 hours of coverage</li>
+                            <li>100 edited photos</li>
+                        </ul>
+                    </td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>Custom Photography Package</td>
+                    <td>If none of our packages fit your exact needs, we can create a custom package tailored to your specifications.</td>
+                    <td>
+                        <ul>
+                            <li>Custom session length</li>
+                            <li>Unlimited pets or wildlife</li>
+                            <li>Unlimited edited photos</li>
+                        </ul>
+                    </td>
+                    <td>Contact for a quote</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>For more information or to book a session, please <a href="contact.html">contact us</a>.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Wizard's Animal Photography. All rights reserved.</p>
+</footer>
+
+<!-- Initialize SlickNav for responsive navigation -->
+<script>
+    $(document).ready(function() {
+        $('#menu').slicknav({
+            prependTo: 'nav'
+        });
+    });
+</script>
+
+</body>
+</html>
