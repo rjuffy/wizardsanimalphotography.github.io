@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Produced on: 12/5/24-->
+    <!-- Tested on: 12/11/24-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Ryan Uftring">
+    <meta name="description" content="Wizard's Animal Photography Gallery">
+    <meta name="keywords" content="Pets, Animals, Photography, Pictures">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wizard's Animal Photography - Gallery</title>
 
-    <!-- Link to external CSS (main.css) -->
-    <link rel="stylesheet" href="main.css">
-
-    <!-- Link to jQuery and SlickNav CSS and JS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.6/slicknav.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slicknav/1.0.6/jquery.slicknav.min.js"></script>
+    <!-- Link to CSS and scripts -->
+    <link rel="stylesheet" href="./styles/slicknav.css"/>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./js/jquery.slicknav.min.js"></script>
 </head>
 <body>
 
@@ -35,11 +39,20 @@
         
         <!-- Video Section -->
         <div class="video-section">
-            <h3>Behind the Lens</h3>
-            <p>Watch our team at work as we capture the magic of animals through our lenses.</p>
-            <iframe src="https://www.youtube.com/watch?v=NEq3GA2my84" title="Wizard's Animal Photography Video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
 
+            <h3>Behind the Lens</h3>
+        
+            <p>Watch our team at work as we capture the magic of animals through our lenses.</p>
+        
+            <video width="100%" height="auto" controls>
+        
+                <source src="./images/video.mp4" type="video/mp4">
+        
+                Your browser does not support the video tag.
+        
+            </video>
+        
+        </div>
         <!-- Image Gallery -->
         <ul class="image-gallery">
             <li>
