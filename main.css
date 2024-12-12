@@ -1,3 +1,7 @@
+/* CSS for Wizard's Animal Photography Page*/
+/* Developed by Ryan Uftring */
+/* Final test on 12/11/24 */
+
 /* Reset some default browser styles */
 * {
     margin: 0;
@@ -27,6 +31,7 @@ header img {
     max-width: 300px; /* Limits the max width to 200px */
     height: auto;     /* Keeps the aspect ratio intact */
 }
+
 
 
 /* Navigation Styling */
@@ -365,7 +370,7 @@ nav ul li a {
     resize: vertical;
 }
 
-.contact-form .submit-btn {
+.contact-form .submit-btn{
     background-color: #0066cc;
     color: white;
     border: none;
@@ -374,9 +379,24 @@ nav ul li a {
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 0.3s;
+    margin: 10px 0 10px;
+}
+.contact-form .submit-btn:hover{
+    background-color: #004c99;
 }
 
-.contact-form .submit-btn:hover {
+.contact-form .reset-btn{
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 10px 0 10px;
+}
+.contact-form .reset-btn:hover{
     background-color: #004c99;
 }
 
@@ -534,6 +554,21 @@ nav ul li a {
 
     .packages-table tr {
         margin-bottom: 15px;
+        display: block;
+    }
+}
+
+/* SlickNav Display */
+.slicknav_menu {
+	display:none;
+}
+
+@media only screen and (max-width:600px) {
+    #menu{
+        display: none;
+    }
+
+    .slicknav_menu{
         display: block;
     }
 }
