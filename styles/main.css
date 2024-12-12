@@ -385,6 +385,21 @@ nav ul li a {
     background-color: #004c99;
 }
 
+.contact-form .reset-btn{
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 10px 0 10px;
+}
+.contact-form .reset-btn:hover{
+    background-color: #004c99;
+}
+
 /* Maps Section */
 .maps-section {
     margin-top: 40px;
